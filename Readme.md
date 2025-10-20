@@ -16,3 +16,5 @@ g++ file_name.cpp -o outs/file_name.exe
 ```bash
 outs/file_name.exe
 ```
+
+Thanks
