@@ -35,6 +35,8 @@ int main() {
     int arr[] =  {3,1,1,1,1,2,2,2,4};
     int n = sizeof(arr) / sizeof(arr[0]);
     int c = FindSecondMinElement(arr,n);
-    cout<<c;
+    cout<<"Second Min Element: "<<c<<endl;
+    int d = FindSecondMaxElement(arr,n);
+    cout<<"Second Max Element: "<<d;
 }
 
