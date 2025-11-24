@@ -12,12 +12,13 @@ void printArray(int arr[], int n) {
 
 // one more optimized solution using swap
 int main() {
-    int arr[] = {1,0,2,3,2,0,0,4,5,1};
+    int arr[] = {0,1,0,2,3,2,0,0,4,5,1};
     int s = sizeof(arr) / sizeof(arr[0]); 
     int idx = 0;
     for (int i=0;i<s;i++) {
         if( arr[i] != 0) { 
             swap(arr[i],arr[idx]);
+            idx++;
         }
     } 
     printArray(arr,s);
