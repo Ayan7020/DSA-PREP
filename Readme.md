@@ -17,4 +17,15 @@ g++ file_name.cpp -o outs/file_name.exe
 outs/file_name.exe
 ```
 
+- Correct manner to learn
+1. Arrays
+2. Hashing / HashMaps
+3. Two Pointers / Sliding Window
+4. Recursion + Backtracking
+5. Linked Lists
+6. Stacks & Queues
+7. Trees
+8. Graphs
+9. DP (Dynamic Programming) [Optional]
+
 Thanks
