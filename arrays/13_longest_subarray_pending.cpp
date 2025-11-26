@@ -20,8 +20,8 @@ void longestSubarraySumK(int arr[],int n,int k) {
 }
 
 int main() {
-    int arr[] = {4,2,7};
-    int k = 7;
+    int arr[] = {1,2,3,1,1,1,1,4,2,3};
+    int k = 3;
     int n = sizeof(arr) / sizeof(arr[0]);
     longestSubarraySumK(arr,n,k);
     return 0;
