@@ -25,4 +25,4 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
     longestSubarraySumK(arr,n,k);
     return 0;
-}
+}   
