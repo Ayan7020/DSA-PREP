@@ -32,7 +32,7 @@ void Unions(vector<int> arr1,vector<int> arr2) {
         if((UnionsP.size() == 0) || (UnionsP.back() != arr1[i])) {
                 UnionsP.push_back(arr1[i]);
         }
-        j++;
+        i++;
     }
 
     while (j < arr2.size())
